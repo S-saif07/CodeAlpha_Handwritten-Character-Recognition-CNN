@@ -1,0 +1,10 @@
+tensorflow>=2.16        # includes Keras 3 (.keras model format)
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+pillow
+# Only needed for the EMNIST extension:
+tensorflow-datasets

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config / editors / OS
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Datasets and downloaded data
+data/
+tensorflow_datasets/
+*.npz
+
+# Model files: keep the folder, not the weights (see README for how to retrain)
+models/*
+!models/.gitkeep
+
+# Results: keep the folder; commit chosen figures manually with `git add -f`
+results/*
+!results/.gitkeep
+!results/**/
